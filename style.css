@@ -145,3 +145,19 @@ body{
   color: #000;
   transition: 0.3s;
 }
+
+.sf-menu li:hover a, .sf-menu li.selected a, .sf-menu li.current-menu-item a, .sf-menu li.current-menu-ancestor a {
+  background: #F8F8F8;
+  color: #222;
+  transition: 0.3s;
+}
+
+.cta-button{
+  width: 100%;
+  background: #AD3F24;
+  height: 80px;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 25px;
+  box-sizing: border-box;
+}

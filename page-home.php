@@ -7,7 +7,7 @@ get_header(); ?>
 <section class="homepage">
 <div class="et_pb_with_border et_pb_section et_pb_section_1 banner-bg opt-in-outer et_section_regular">
 <h2 style="text-align: center;">Get your Free Resource Guide to Iron Deficiency here</h2>
-<div class="et_pb_image_wrap"><img src="<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2020/02/eBook-Cover.png" alt data-lazy-src="'<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2020/02/eBook-Cover.png" class=" jetpack-lazy-image"><noscript><img src="'<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2020/02/eBook-Cover.png" alt="" /></noscript></div>
+<div class="et_pb_image_wrap"><img src="<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2020/02/eBook-Cover.png" alt data-lazy-src="<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2020/02/eBook-Cover.png" class=" jetpack-lazy-image"><noscript><img src="'<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2020/02/eBook-Cover.png" alt="" /></noscript></div>
 <p><!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -53,5 +53,9 @@ get_header(); ?>
 </p>
 </div>
 </section>
-
+<!-- begin Meet with Amber from Anywhere -->
+<div class='cta-button'>
+<a class="et_pb_button et_pb_button_0 announcement-cta et_pb_bg_layout_dark" href="<?php echo esc_url(get_home_url()); ?>/amberwoodhealth.ca/make-a-booking">Meet with Amber from anywhere. Book a free 15 min consult now! &rsaquo;</a>
+</div>
+<!-- end Meet with Amber from Anywhere -->
 <?php get_footer(); ?>
