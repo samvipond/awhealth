@@ -88,6 +88,9 @@ get_header(); ?>
 </div>
 <!-- CountUp -->
 <div class='countUp-container'>
-<div id='countUp'></div>
+<h1>Reconnect with your body.</h1>
+<h1>Align with your genetic memory to restore vitality.</h1>
+<span id='countUp'></span><span id='percent'>%</span>
+<h3>Committed to optimizing your health</h3>
 </div>
 <?php get_footer(); ?>

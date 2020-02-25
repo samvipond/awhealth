@@ -315,8 +315,24 @@ li.comments-number{
 
 .countUp-container{
   width: 100%;
-  background: blue;
+  background: #116D67;
   height: 300px;
   font-size: 100px;
   text-align: center;
+  padding: 30px;
+  color: #F8F8F8;
+}
+
+.countUp-container>h1{
+  margin-bottom: 20px;
+  color: #F8F8F8;
+}
+
+#countUp, #percent{
+  color: #7EBEC5;
+}
+
+.countUp-container>h3{
+  margin-top: 20px;
+  color: #F8F8F8;
 }

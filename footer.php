@@ -87,16 +87,22 @@
 		wp_footer();
     ?>
   </body>
-  	<script>
-      document.addEventListener('DOMContentLoaded', function(event) {
-        //the event occurred
-        console.log('HI');
-        const countUp = new CountUp('countUp', 100);
+  <?php if (is_front_page()): ?>
+  <script>
+  document.addEventListener('DOMContentLoaded', function(event) {
+    const countUp = new CountUp('countUp', 100);
+    var waypoint = new Waypoint({
+      element: document.getElementById('countUp'),
+      handler: function(direction) {
         if (!countUp.error) {
           countUp.start();
         } else {
           console.error(countUp.error);
         }
-      });
-	</script>
+      },
+      offset: '75%',
+    });
+  });
+  </script>
+  <?php endif; ?>
 </html>
