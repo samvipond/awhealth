@@ -93,4 +93,16 @@ get_header(); ?>
 <span id='countUp'></span><span id='percent'>%</span>
 <h3>Committed to optimizing your health</h3>
 </div>
+<!-- about -->
+<div class='about-container' style='background-image: url(<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2016/04/amberbkgd.jpg);'>
+  <div class='about-photo'>
+  <img src="<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2019/02/BW-glasses.jpg" alt="Amber Wood" />
+  </div>
+  <div class='about-text'>
+    <h2>About Amber</h2>
+    <p>I am passionate about medicine that is natural, evidence-based & effective. Helping you restore vitality is my goal. Learning to manage stress, eat well & rest deeply are crucial. Overdoing it, combined with the wrong diet has real consequences. I discovered the hard way. At a young age I developed joint pain & gut issues. Like many, this was chronic & didn’t make sense. I couldn’t handle stress. My energy diminished. With chronic brain fog & hormonal imbalances developing, I never felt at my best. </p>
+    <p>Luckily I met my doctor & began making changes gradually. Once I got my health back, I dedicated my life to helping others with digestive distress, autoimmune issues & hormonal imbalance. Taking a holistic approach allowed me to recover without unnecessary medication or surgery. These interventions can be life-saving but with many chronic health conditions there is another way that is more empowering & effective.</p>
+    <div class='button'><a href='<?php echo esc_url(get_home_url()); ?>/about'>Learn More &rsaquo;</a></div>
+  </div>
+</div>
 <?php get_footer(); ?>

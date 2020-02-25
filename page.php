@@ -2,7 +2,6 @@
 get_header();
 ?>
 <div class="theme-page relative">
-	<!-- <div class="vc_row wpb_row vc_row-fluid page-header vertical-align-table full-width"> -->
 		<div class="vc_row wpb_row vc_inner vc_row-fluid">
 			<?php
 			$sidebar = get_post(get_post_meta(get_the_ID(), "page_sidebar_header", true));
@@ -16,7 +15,6 @@ get_header();
 			<?php
 			endif;
 			?>
-		<!-- </div> -->
 	</div>
 	<div class="clearfix<?php echo (function_exists("has_blocks") && has_blocks() ? ' has-gutenberg-blocks' : '');?>">
 		<?php
