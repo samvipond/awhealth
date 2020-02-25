@@ -77,4 +77,17 @@ get_header(); ?>
 <?php endwhile; wp_reset_postdata(); ?>
 </div>
 <!-- End Recent Insights -->
+<div class='more-info'>
+<h2>Functional Medicine is Individualized and Patient-Centered.</h2>
+<p>Investigate to find the root cause.  Create a long-term preventative plan for optimal health.</p>
+<p>Thorough lab work along with the right diet and lifestyle changes means results. </p>
+<p>Reach your goals.  Restore your vitality.  Start feeling better today!</p>
+<hr>
+<h2>Evidence-Based, Natural Medicine.  It Just Makes Sense.</h2>
+<p>This is medicine for the 21st century.</p>
+</div>
+<!-- CountUp -->
+<div class='countUp-container'>
+<div id='countUp'></div>
+</div>
 <?php get_footer(); ?>

@@ -291,7 +291,7 @@ a:hover{
 .read-more{
   position: absolute;
   bottom: 10px;
-  left: 10px;
+  left: 5px;
 }
 
 .attachment-blog-post-thumb.size-blog-post-thumb.wp-post-image.jetpack-lazy-image.jetpack-lazy-image--handled {
@@ -300,4 +300,23 @@ a:hover{
 
 li.comments-number{
   display: none;
+}
+
+.more-info{
+  text-align: center;
+  padding: 0 20px;
+}
+
+.more-info>hr{
+  width: 80%;
+  margin: 20px 10%;
+  border: 1px solid #ccc;
+}
+
+.countUp-container{
+  width: 100%;
+  background: blue;
+  height: 300px;
+  font-size: 100px;
+  text-align: center;
 }

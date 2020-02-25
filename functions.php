@@ -22,4 +22,10 @@ function mc_child_theme_excerpt_more($more)
 
 add_filter('excerpt_more', 'mc_child_theme_excerpt_more', 999);
 
+function mc_child_theme_enqueue_script() {
+  wp_enqueue_script( 'countup', get_stylesheet_directory_uri() . '/js/countUp.min.js', array(), '1.0.0', true );
+}
+
+add_action( 'wp_enqueue_scripts', 'mc_child_theme_enqueue_script' );
+
 ?>
