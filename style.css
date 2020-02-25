@@ -243,3 +243,33 @@ a:hover{
 .sf-menu li ul.sub-menu > li>a:hover{
   color: #fff;
 }
+
+.recent-insights{
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  min-height: 500px;
+}
+
+.post-preview-block{
+  margin: 0 15px;
+  height: 300px;
+  width: 300px;
+  background: #aaa;
+}
+
+.post-preview-block>a>img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.attachment-blog-post-thumb.size-blog-post-thumb.wp-post-image.jetpack-lazy-image.jetpack-lazy-image--handled {
+  opacity: 1 !important;
+}
+
+li.comments-number{
+  display: none;
+}

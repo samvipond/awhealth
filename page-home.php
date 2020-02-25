@@ -57,20 +57,20 @@ get_header(); ?>
 <div class='cta-button'>
 <a class="et_pb_button et_pb_button_0 announcement-cta et_pb_bg_layout_dark" href="<?php echo esc_url(get_home_url()); ?>/amberwoodhealth.ca/make-a-booking">Meet with Amber from anywhere. Book a free 15 min consult now! &rsaquo;</a>
 </div>
+<!-- end Meet with Amber from Anywhere -->
+<!-- begin Recent Insights -->
 <p>Recent Insights</p>
+<div class='recent-insights'>
 <?php $the_query = new WP_Query( 'posts_per_page=3' ); ?>
-
 <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
-<div><a href="<?php the_permalink() ?>"><?php the_post_thumbnail() ?></a></div>
-<h2><?php the_title(); ?></h2>
+  <div class='post-preview-block'>
+    <a href="<?php the_permalink() ?>"><?php the_post_thumbnail() ?></a>
+    <h2><?php the_title(); ?></h2>
+    <p><?php the_excerpt(__('(more…)')); ?></p>
+  </div>
 
-
-<p><?php the_excerpt(__('(more…)')); ?></p>
-
-<?php
-endwhile;
-wp_reset_postdata();
-?>
-<!-- end Meet with Amber from Anywhere -->
+<?php endwhile; wp_reset_postdata(); ?>
+</div>
+<!-- End Recent Insights -->
 <?php get_footer(); ?>
