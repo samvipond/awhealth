@@ -354,11 +354,11 @@ li.comments-number{
   margin: 40px;
 }
 
-.about-text>.button{
+.custom-button{
   padding: 8px;
   border: 1px solid #39A6F2;
   height: 30px;
-  width: 120px;
+  width: auto;
   line-height: 30px;
   color: #39A6F2;
   font-size: 1.2em;
@@ -367,14 +367,13 @@ li.comments-number{
   transition: 0.3s;
 }
 
-.about-text>.button:hover{
-  width: 125px;
+.custom-button:hover{
+  padding-right: 13px;
   transition: 0.3s;
 }
 
-.about-text>.button>a{
+.custom-button>a{
   color: #39A6F2;
-  width: 100%;
   height: 100%;
 }
 
@@ -392,6 +391,7 @@ li.comments-number{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  font-size: 1.1em;
 }
 
 .about-page>h1{
@@ -410,6 +410,7 @@ li.comments-number{
 
 .about-main {
   width: 600px;
+  margin-bottom: 40px;
 }
 
 @media screen and (max-width: 1060px){
@@ -430,4 +431,10 @@ li.comments-number{
   .about-main {
     width: 100%;
   }
+}
+
+.fullwidth.my-story.theme-page.relative{
+  background: #B0CEC4;
+  padding-top: 50px;
+  font-size: 1.2em;
 }

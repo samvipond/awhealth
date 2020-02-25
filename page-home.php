@@ -102,7 +102,7 @@ get_header(); ?>
     <h2>About Amber</h2>
     <p>I am passionate about medicine that is natural, evidence-based & effective. Helping you restore vitality is my goal. Learning to manage stress, eat well & rest deeply are crucial. Overdoing it, combined with the wrong diet has real consequences. I discovered the hard way. At a young age I developed joint pain & gut issues. Like many, this was chronic & didn’t make sense. I couldn’t handle stress. My energy diminished. With chronic brain fog & hormonal imbalances developing, I never felt at my best. </p>
     <p>Luckily I met my doctor & began making changes gradually. Once I got my health back, I dedicated my life to helping others with digestive distress, autoimmune issues & hormonal imbalance. Taking a holistic approach allowed me to recover without unnecessary medication or surgery. These interventions can be life-saving but with many chronic health conditions there is another way that is more empowering & effective.</p>
-    <div class='button'><a href='<?php echo esc_url(get_home_url()); ?>/about'>Learn More &rsaquo;</a></div>
+    <span class='custom-button'><a href='<?php echo esc_url(get_home_url()); ?>/about'>Learn More &rsaquo;</a></span>
   </div>
 </div>
 <?php get_footer(); ?>
