@@ -55,10 +55,9 @@ get_header(); ?>
     <p>Having been a vegetarian throughout my teens and early twenties weakened my constitution. I was training six days per week as a dancer and this, combined with the wrong diet for my activity level, made me an excellent host for opportunistic, pathogenic bacteria. I quit dancing and traveled. Climbing mountains, eating vegetarian and drinking treated water led to further gut distress, infection and severe fatigue.</p>
     <p>As my understanding grew and my strength returned I committed to a year long barefoot doctor training.  I wanted to help others with similar gastro-intestinal distress. After working in community healthcare and education for years I decided to return to school and became a licensed practitioner. I’ve treated hundreds of patients over the past six years  and now work with people around the globe.  I’m dedicated to ongoing study, research, and sharing what I learn with you.</p>
 </div>
-<!-- style='background-image: url(<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2018/04/Train-in-forest.jpg);)' -->
-<div class='fullwidth theme-page relative book-now'>
+<div class='book-now' style='background-image: url(<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2018/04/Train-in-forest.jpg);)'>
 <div class='custom-button book-now-inner'>
-  <span class='center'><a href='<?php echo esc_url(get_home_url()); ?>/make-a-booking'>Book Now &rsaquo;</a></span>
+  <a href='<?php echo esc_url(get_home_url()); ?>/make-a-booking'>Book Now &rsaquo;</a>
 </div>
 </div>
 

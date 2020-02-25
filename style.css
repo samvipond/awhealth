@@ -355,7 +355,6 @@ li.comments-number{
 }
 
 .custom-button{
-  padding: 8px;
   border: 1px solid #39A6F2;
   height: 30px;
   width: auto;
@@ -365,6 +364,7 @@ li.comments-number{
   border-radius: 4px;
   cursor: pointer;
   transition: 0.3s;
+  display: inline-block;
 }
 
 .custom-button:hover{
@@ -375,6 +375,8 @@ li.comments-number{
 .custom-button>a{
   color: #39A6F2;
   height: 100%;
+  width: 100%;
+  padding: 8px;
 }
 
 .theme-page.relative {
@@ -445,12 +447,26 @@ li.comments-number{
   background-position: center;
   display: flex;
   justify-content: center;
-  align-items: center !important;
-  background: green;
+  align-items: center;
   box-sizing: border-box;
 }
 
 .book-now-inner{
-  background-color: red;
-  align-self: center !important;
+  background: green;
+  border: 1px solid #fff;
+  align-self: center;
+  transition: 0.3s;
+  height: 40px;
+  line-height: 40px;
+}
+
+.book-now-inner:hover{
+  border: none;
+  transition: 0.3s;
+}
+
+.book-now-inner>a{
+  color: #fff;
+  height: 100%;
+  width: 100%;
 }
