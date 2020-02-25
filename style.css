@@ -438,3 +438,19 @@ li.comments-number{
   padding-top: 50px;
   font-size: 1.2em;
 }
+
+.book-now{
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  background: green;
+  box-sizing: border-box;
+}
+
+.book-now-inner{
+  background-color: red;
+  align-self: center !important;
+}

@@ -54,5 +54,12 @@ get_header(); ?>
     <p>I began studying Functional Medicine and Acupuncture in 2003 after my own health crisis. I returned from Asia with more pathogens in my gut than the lab tech had ever seen. After having a ‘gut’ or intuitive response to conventional medicine’s approach to gastro-intestinal distress, I decided to change my life and move to Nelson, BC.  This small mountain town is where I met my doctor and teacher. The first changes I made were adding more protein, healthy fats and salt to my diet. Secondly I began eating more vegetables and meditating.</p>
     <p>Having been a vegetarian throughout my teens and early twenties weakened my constitution. I was training six days per week as a dancer and this, combined with the wrong diet for my activity level, made me an excellent host for opportunistic, pathogenic bacteria. I quit dancing and traveled. Climbing mountains, eating vegetarian and drinking treated water led to further gut distress, infection and severe fatigue.</p>
     <p>As my understanding grew and my strength returned I committed to a year long barefoot doctor training.  I wanted to help others with similar gastro-intestinal distress. After working in community healthcare and education for years I decided to return to school and became a licensed practitioner. I’ve treated hundreds of patients over the past six years  and now work with people around the globe.  I’m dedicated to ongoing study, research, and sharing what I learn with you.</p>
-  </div>
+</div>
+<!-- style='background-image: url(<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2018/04/Train-in-forest.jpg);)' -->
+<div class='fullwidth theme-page relative book-now'>
+<div class='custom-button book-now-inner'>
+  <span class='center'><a href='<?php echo esc_url(get_home_url()); ?>/make-a-booking'>Book Now &rsaquo;</a></span>
+</div>
+</div>
+
 <?php get_footer(); ?>
