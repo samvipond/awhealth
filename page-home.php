@@ -59,15 +59,19 @@ get_header(); ?>
 </div>
 <!-- end Meet with Amber from Anywhere -->
 <!-- begin Recent Insights -->
-<p>Recent Insights</p>
+<h1 class="insights-header">Recent Insights</h1>
 <div class='recent-insights'>
 <?php $the_query = new WP_Query( 'posts_per_page=3' ); ?>
 <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
   <div class='post-preview-block'>
     <a href="<?php the_permalink() ?>"><?php the_post_thumbnail() ?></a>
-    <h2><?php the_title(); ?></h2>
-    <p><?php the_excerpt(__('(more…)')); ?></p>
+    <div class='preview-inner'>
+      <h2><?php the_title(); ?></h2>
+      <?php the_excerpt(__('(more…)')); ?>
+      <a class='read-more' href="<?php the_permalink() ?>">Read more...</a>
+    </div>
+
   </div>
 
 <?php endwhile; wp_reset_postdata(); ?>

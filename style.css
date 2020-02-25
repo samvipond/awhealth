@@ -244,6 +244,11 @@ a:hover{
   color: #fff;
 }
 
+.insights-header {
+  text-align: center;
+  margin: 15px auto;
+}
+
 .recent-insights{
   display: flex;
   width: 100%;
@@ -255,15 +260,38 @@ a:hover{
 }
 
 .post-preview-block{
-  margin: 0 15px;
-  height: 300px;
+  position: relative;
+  margin: 0 15px 30px;
+  height: 475px;
   width: 300px;
-  background: #aaa;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1004px) {
+  .post-preview-block {
+    width: 400px;
+    height: 425px;
+  }
+}
+
+.preview-inner>h2{
+  text-align: center;
+}
+
+.preview-inner{
+  padding: 5px;
+  height: 200px;
 }
 
 .post-preview-block>a>img {
   max-height: 200px;
   object-fit: cover;
+}
+
+.read-more{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
 }
 
 .attachment-blog-post-thumb.size-blog-post-thumb.wp-post-image.jetpack-lazy-image.jetpack-lazy-image--handled {

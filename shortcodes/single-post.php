@@ -137,6 +137,7 @@ function mc_theme_single_post($atts)
 	));
 					if((int)$comments)
 					{
+						// $output .= '...';
             // do nothing
 						// $output .= '<a title="' . esc_attr__('Leave a reply', 'medicenter') . '" href="#comment_form" class="more template-arrow-horizontal-1-after reply-button">'
 						// 	. __('Leave a reply', 'medicenter') . '</a>';
