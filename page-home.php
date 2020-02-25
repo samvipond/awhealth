@@ -6,7 +6,7 @@ Template Name: Home Page
 get_header(); ?>
 <section class="homepage">
 <div class="et_pb_with_border et_pb_section et_pb_section_1 banner-bg opt-in-outer et_section_regular">
-<h2 style="text-align: center;">Get your Free Resource Guide to Iron Deficiency here</h2>
+<h2 class='opt-in-header' style="text-align: center;">Get your Free Resource Guide to Iron Deficiency here</h2>
 <div class="et_pb_image_wrap"><img src="<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2020/02/eBook-Cover.png" alt data-lazy-src="<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2020/02/eBook-Cover.png" class=" jetpack-lazy-image"><noscript><img src="'<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2020/02/eBook-Cover.png" alt="" /></noscript></div>
 <p><!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
@@ -57,5 +57,20 @@ get_header(); ?>
 <div class='cta-button'>
 <a class="et_pb_button et_pb_button_0 announcement-cta et_pb_bg_layout_dark" href="<?php echo esc_url(get_home_url()); ?>/amberwoodhealth.ca/make-a-booking">Meet with Amber from anywhere. Book a free 15 min consult now! &rsaquo;</a>
 </div>
+<p>Recent Insights</p>
+<?php $the_query = new WP_Query( 'posts_per_page=3' ); ?>
+
+<?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+
+<div><a href="<?php the_permalink() ?>"><?php the_post_thumbnail() ?></a></div>
+<h2><?php the_title(); ?></h2>
+
+
+<p><?php the_excerpt(__('(more…)')); ?></p>
+
+<?php
+endwhile;
+wp_reset_postdata();
+?>
 <!-- end Meet with Amber from Anywhere -->
 <?php get_footer(); ?>
