@@ -470,3 +470,47 @@ li.comments-number{
   height: 100%;
   width: 100%;
 }
+
+.education,
+.logos {
+  width: 400px;
+}
+
+@media screen and (max-width: 1060px){
+  .education, .logos {
+    width: 300px;
+  }
+}
+
+.about-education{
+  padding-top: 50px;
+}
+
+.logos>img{
+  max-width: 300px;
+  margin-bottom: 30px;
+}
+
+.slide-right{
+  opacity: 0;
+  position: relative;
+  right: 150px;
+}
+
+.slide-right.slide-in-right{
+  opacity: 1;
+  transition: 0.4s;
+  right: 0;
+}
+
+.slide-left{
+  opacity: 0;
+  position: relative;
+  left: 150px;
+}
+
+.slide-left.slide-in-left{
+  opacity: 1;
+  transition: 0.4s;
+  left: 0;
+}

@@ -105,4 +105,31 @@
   });
   </script>
   <?php endif; ?>
+  <?php if (is_page('about-amber-wood')): ?>
+  <script>
+  document.addEventListener('DOMContentLoaded', function(event) {
+    var continuousElements = document.getElementsByClassName('slide-right')
+      for (var i = 0; i < continuousElements.length; i++) {
+        new Waypoint({
+          element: continuousElements[i],
+          handler: function() {
+            this.element.classList.add('slide-in-right');
+          },
+          offset: '65%',
+        })
+    }
+
+    var continuousElements = document.getElementsByClassName('slide-left')
+      for (var i = 0; i < continuousElements.length; i++) {
+        new Waypoint({
+          element: continuousElements[i],
+          handler: function() {
+            this.element.classList.add('slide-in-left');
+          },
+          offset: '65%',
+        })
+    }
+  });
+  </script>
+  <?php endif; ?>
 </html>

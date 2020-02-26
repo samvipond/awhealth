@@ -10,17 +10,17 @@ get_header(); ?>
   <div class='about-sidebar'>
     <p style='font-style: italic;'>Amber Wood, R.Ac</p>
     <p>Functional Medicine</p>
-    <img src="<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2016/10/Amber-Wood-Health-May.jpg" alt="Amber Wood" />
+    <img class='slide-left' src="<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2016/10/Amber-Wood-Health-May.jpg" alt="Amber Wood" />
     <blockquote>
       I am truly grateful to have Amber as my Functional Medicine practitioner – she is passionate about her work and deeply committed to my healing journey. It can be incredibly overwhelming to navigate the different things happening in my body, particularly when allopathic medicine simply wants to give me pharmaceuticals. Amber has helped me look at the many facets of what I am dealing with, and has helped me to understand the connections between them in a way that is accessible, and gives me hope that my body will heal.
       <footer>—A.H., <cite>Educator & Mom</cite></footer>
     </blockquote>
-    <img src="<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2018/05/Amber-Wood-Health-2018.jpg" alt="Amber Wood" />
+    <img class='slide-left' src="<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2018/05/Amber-Wood-Health-2018.jpg" alt="Amber Wood" />
     <blockquote>
       I can be changed by what happens to me. But I refuse to be reduced by it.
       <footer>—Maya Angelou, <cite>on resiliency</cite></footer>
     </blockquote>
-    <img src="<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2018/05/Amber-Wood-Health-May18.jpg" alt="Amber Wood" />
+    <img class='slide-left' src="<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2018/05/Amber-Wood-Health-May18.jpg" alt="Amber Wood" />
   </div>
   <div class='about-main'>
     <h2>Ready to feel Like You Again?</h2>
@@ -60,5 +60,54 @@ get_header(); ?>
   <a href='<?php echo esc_url(get_home_url()); ?>/make-a-booking'>Book Now &rsaquo;</a>
 </div>
 </div>
+<div class='theme-page relative'>
+<div class='about-page about-education'>
+  <div class='education'>
+    <h1>Ongoing Education</h1>
+    <p>
+      Advanced Diagnostics And Personalized Treatment
+      ADAPT Trained Clinician & Healthcare Professional
+      Kresser Institute Functional Medicine, Berkeley, CA
+      <a href='http://www.kresserinstitute.com' target='_blank' rel='noopener noreferrer'>http://www.kresserinstitute.com</a>
+    </p>
 
+    <p>
+      Registered Acupuncturist. Licences with the College of Traditional Chinese Medicine of BC, Canada
+      Graduated with high honours, Pacific Rim College. Victoria, BC
+      <a href='http://www.pacificrimcollege.com' target='_blank' rel='noopener noreferrer'>http://www.pacificrimcollege.com</a>
+    </p>
+    <p>
+    Somatic meditation. Fifteen years of training, retreat & mentorship with Neil McKinlay. <a href='https://www.neilmckinlay.com/' target='_blank'>https://www.neilmckinlay.com/</a> and the Dharma Ocean Foundation, Crestone, CO
+    </p>
+    <p>
+      Somatic Psychotherapy Training, Vancouver, BC, Canada
+      <a href='http://www.vancouverhakomi.ca' target='_blank' rel='noopener noreferrer'>http://www.vancouverhakomi.ca</a>
+    </p>
+    <p>
+      Transformative Education Intensive Training, USA & Canada
+      <a href=' http://www.partnersforyouth.org/training/creative-facilitation/?section=at' target='_blank' rel='noopener noreferrer'> http://www.partnersforyouth.org/training/creative-facilitation</a>
+    </p>
+    <p>
+      NeuroSomatic Therapy Institute, Nelson, BC
+      Dr. Mike Smith, DTCM. Functional & Evolutionary Medicine
+      <a href='http://integrativehealthsolutions.ca' target='_blank' rel='noopener noreferrer'>http://integrativehealthsolutions.ca</a>
+    </p>
+    <p>
+      Residential Training in Somatic Movement, Martial arts & Performance.
+      <a href='http://www.bodyresearch.org' target='_blank' rel='noopener noreferrer'></a>
+    </p>
+    <p>
+      Undergraduate studies at UVIC in Victoria, BC.
+    </p>
+    <p>
+      Undergraduate studies, York University in Toronto, ON.
+    </p>
+  </div>
+  <div class='logos'>
+    <img src="<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2016/04/ADAPT-Level-One-Trained-Badge-250x250.jpg" alt="Adapt Trained Level 1" class='slide-right' />
+    <img src="<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2017/03/Ancient-Tech.png" alt="Ancient Tech" class='slide-right' />
+    <img src="<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2016/04/LabCoat.png" alt="Lab Coat" class='slide-right' />
+  </div>
+</div>
+</div>
 <?php get_footer(); ?>
