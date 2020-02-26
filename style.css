@@ -152,7 +152,6 @@ a:hover{
 }
 
 #menu-pillar-menu {
-  /* background: red; */
   max-width: 650px;
 }
 
@@ -513,4 +512,44 @@ li.comments-number{
   opacity: 1;
   transition: 0.4s;
   left: 0;
+}
+
+.social{
+  display: flex;
+  justify-content: center;
+  min-height: 100px;
+  align-items: center;
+  padding: 20px;
+}
+
+.social>a{
+  margin: 10px;
+}
+
+a:hover img, .gallery-box:hover img{
+	opacity: 0.8;
+	background: transparent;
+}
+
+.contact-info{
+  background: #AD3F23;
+  text-align: center;
+  font-size: 1.2em;
+  padding-top: 20px;
+}
+
+.contact-info>p,
+.contact-info>p>strong{
+  color: #F8F8F8;
+  padding: 0 0 20px;
+}
+
+.book-now-inner.contact-inner{
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.book-now-inner.contact-inner>a{
+  color: #141414;
 }

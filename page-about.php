@@ -110,4 +110,27 @@ get_header(); ?>
   </div>
 </div>
 </div>
+<!-- social links -->
+<div class='social' style='background-image: url(<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2016/04/amberbkgddark.jpg);'>
+  <a href="https://www.facebook.com/amberwoodhealth/" target="_blank" class="social-link">
+  <img title="Facebook" alt="Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook.png" width="35" height="35" />
+  </a>
+  <a href="https://www.instagram.com/amberwoodhealth/" target="_blank" class="social-link">
+  <img title="Instagram" alt="RSS" src="https://socialmediawidgets.files.wordpress.com/2014/03/10_instagram.png" width="35" height="35" />
+  </a>
+  <a href="https://www.pinterest.com.mx/amberwoodhealth/" target="_blank" class="social-link">
+  <img title="Pinterest" alt="Pinterest" src="https://socialmediawidgets.files.wordpress.com/2014/03/13_pinterest.png" width="35" height="35" />
+  </a>
+  <a href="https://twitter.com/amberlilywood" target="_blank" class="social-link">
+  <img class="social-icon" title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter.png" width="35" height="35" />
+  </a>
+</div>
+<!-- contact info -->
+<div class='contact-info'>
+  <p><strong>Call:</strong> 855-262-3774</p>
+  <p><strong>Address:</strong> 2203a – 115 Fulford-Ganges Rd Salt Spring Island, BC, V8K 2T9</<strong></p>
+  <div class='custom-button book-now-inner contact-inner'>
+  <a href='<?php echo esc_url(get_home_url()); ?>/contact'>CONTACT &rsaquo;</a>
+</div>
+</div>
 <?php get_footer(); ?>
