@@ -174,7 +174,7 @@ a:hover{
 #menu-pillar-menu > li > a:hover,
 #menu-pillar-menu > li.current_page_item > a,
 #menu-pillar-menu > li.current-menu-item > a{
-  background: #F8F8F8;
+  background: #fff;
   color: #333;
   transition: 0.3s;
 }
@@ -558,4 +558,43 @@ a:hover img, .gallery-box:hover img{
 
 .book-now-inner.contact-inner>a{
   color: #141414;
+}
+
+.blog-cat{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.blog-cat-main{
+  width: 600px;
+}
+
+.blog-cat-sidebar {
+  width: 300px;
+}
+
+.preview-inner.blog-cat{
+  padding-top: 0;
+  border-top: 1px solid blue;
+}
+
+.preview-inner.blog-cat>h2{
+  text-align: left;
+}
+
+.post-preview-block.category {
+  max-width: 600px;
+  width: 100%;
+  margin-left: 0;
+  height: 300px;
+}
+
+.post-preview-block.category>a>img{
+  float: left;
+  margin-right: 30px;
+  width: 250px;
+  max-height: 400px;
+  border-top: 1px solid red;
 }

@@ -71,7 +71,6 @@ get_header(); ?>
       <?php the_excerpt(__('(more…)')); ?>
       <a class='read-more' href="<?php the_permalink() ?>">Read more...</a>
     </div>
-
   </div>
 
 <?php endwhile; wp_reset_postdata(); ?>
