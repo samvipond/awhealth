@@ -186,6 +186,12 @@ a:hover{
   transition: 0.3s;
 }
 
+#menu-pillar-menu.sf-menu li:hover a{
+  background: transparent;
+  color: #333;
+  transition: 0.3s;
+}
+
 .cta-button{
   width: 100%;
   background: #AD3F24;

@@ -43,7 +43,7 @@
 					<?php
 					echo do_shortcode($theme_options["footer_text_left"]);
 					?>
-					</div>
+					&nbsp;&nbsp;&nbsp;&nbsp;</div>
 					<?php
 					endif;
 					if(is_active_sidebar('sidebar-copyright-area'))
