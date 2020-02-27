@@ -891,7 +891,7 @@ span.wpcf7-form-control-wrap>textarea{
 
 .speak-box{
   background-color: #7EBEC5;
-  padding: 25px;
+  padding: 15px 25px 25px;
   padding-bottom: 20px!important;
   margin-left: 34px!important;
   float: right;
@@ -899,6 +899,20 @@ span.wpcf7-form-control-wrap>textarea{
   position: relative;
   height: 250px;
   text-align: center;
+  color: #f8f8f8;
+}
+
+.speak-box>h2,
+.speak-box>h3 {
+  color: #f8f8f8;
+  margin: 12px;
+}
+
+.speak-box>.custom-button{
+  background: #699FA5;
+}
+
+.speak-box>.custom-button>a{
   color: #f8f8f8;
 }
 
@@ -916,4 +930,33 @@ span.wpcf7-form-control-wrap>textarea{
 
 .root-main-text>p:first-child{
   padding-top: 0;
+}
+
+.box-expand{
+  border: 1px solid #ccc;
+  padding: 15px;
+  box-sizing: border-box;
+  max-height: 55px;
+  overflow: hidden;
+  position: relative;
+  transition: max-height .5s ease-out;
+}
+
+.box-expand.expand{
+  max-height: 1000px;
+  transition: max-height 2.5s ease-out;
+}
+
+.show-more-container{
+  background: #AC3F24;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  text-align: center;
+  transform: rotate(45deg);
+  font-size: 25px;
+  color: #f8f8f8;
 }

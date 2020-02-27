@@ -34,6 +34,42 @@ get_header(); ?>
       <li>A lifestyle and diet survey</li>
       <li>An opportunity to consider your health and wellness goals</li>
     </ul>
+    <div class='box-expand step-two'>
+      <div class='show-more-container'>
+        <span id='expand-step-two' class='show-more'>&times;</span>
+      </div>
+      <h1>Step Two: Treatment Plan</h1>
+      <p>Prior to your 2nd consult, any new labs will be reviewed and used to create a treatment plan. This will include:</p>
+      <ul>
+        <li>A discussion of the underlying patterns that are contributing to your symptoms.</li>
+        <li>An outline of the suggested treatment plan, including dietary, supplement and lifestyle recommendations.</li>
+        <li>Recommendations for further testing if necessary.</li>
+      </ul>
+    </div>
   </div>
 </div>
+<script>
+document.addEventListener('DOMContentLoaded', function(event) {
+  document.addEventListener('click', function (event) {
+    if (event.target.matches('.show-more')) {
+      event.target.parentElement.parentElement.classList.add('expand');
+      event.target.classList.toggle('show-more');
+      event.target.innerHTML = '&bull;';
+      setTimeout(() => {
+        event.target.classList.toggle('show-less');
+      }, 10);
+    }
+
+    if (event.target.matches('.show-less')) {
+      event.target.parentElement.parentElement.classList.remove('expand');
+      event.target.classList.toggle('show-less');
+      event.target.innerHTML = '&times;';
+      setTimeout(() => {
+        event.target.classList.toggle('show-more');
+      }, 10);
+    }
+
+    }, false);
+});
+</script>
 <?php get_footer(); ?>
