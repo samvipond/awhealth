@@ -10,9 +10,28 @@
 
 @import url("../medicenter/style.css");
 @import url("./custom.css");
+/* @import url("./temp.css"); */
+
+html, body {
+  height: 100%;
+}
 
 body{
   background: #F8F8F8;
+}
+
+.site-container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.theme-page{
+  flex: 1 0 auto;
+}
+
+.copyright-area-container {
+  flex-shrink: 0;
 }
 
 a:hover{
@@ -677,6 +696,7 @@ ul.products, .products{
   justify-content: flex-start;
   flex-wrap: wrap;
   margin-top: 30px !important;
+  clear: both;
 }
 
 ul.products>li{
@@ -684,6 +704,15 @@ ul.products>li{
   margin: 20px !important;
   /* display: block; */
 }
+
+ul.products>li>a>img{
+  width: 100px;
+  padding: 10px;
+}
+
+/* a img, .wpb_text_column img{
+  width: 40px !important;
+} */
 
 ul.products>li>h2.woocommerce-loop-product__title{
   max-width: 150px;
@@ -700,4 +729,25 @@ ul.products>li>h2.woocommerce-loop-product__title{
 
 .woocommerce-tabs.wc-tabs-wrapper{
   max-width: 80vw;
+}
+
+.product-category.product>a>img{
+  width: 1000px !important;
+}
+
+.woocommerce div.product form.cart table div.quantity {
+  width: 155px;
+  position: relative;
+  bottom: 17px;
+}
+
+/* .woocommerce{
+  max-width: 100vw;
+} */
+
+/* contact */
+
+span.wpcf7-form-control-wrap>input,
+span.wpcf7-form-control-wrap>textarea{
+  max-width: 80vw !important;
 }
