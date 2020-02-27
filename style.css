@@ -20,6 +20,10 @@ body{
   background: #F8F8F8;
 }
 
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Lora',Georgia,"Times New Roman",serif;
+}
+
 .site-container{
   min-height: 100%;
   display: flex;
@@ -467,8 +471,8 @@ li.comments-number{
 
 .book-now{
   height: 150px;
-  background-size: cover;
-  background-position: center;
+  background-size: cover !important;
+  background-position: center !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -857,4 +861,57 @@ span.wpcf7-form-control-wrap>textarea{
   vertical-align: top;
   white-space: nowrap;
   width: auto;
+}
+
+/* get to the root */
+.to-the-root{
+  height: 300px;
+  width: 100%;
+}
+
+.root-main-text p {
+  font-size: 1.5em;
+}
+
+.root-main-text li{
+  font-size: 1.2em;
+  line-height: 1.6em;
+  margin: 5px 0;
+}
+
+.to-the-root>h1>strong{
+  font-size: 2em;
+  color: #494949;
+}
+
+.center{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.speak-box{
+  background-color: #7EBEC5;
+  padding: 25px;
+  padding-bottom: 20px!important;
+  margin-left: 34px!important;
+  float: right;
+  z-index: 10;
+  position: relative;
+  height: 250px;
+}
+
+@media screen and (max-width: 860px) {
+  .speak-box{
+    width: 100%;
+    margin: 0 auto 20px;
+    box-sizing: border-box;
+  }
+}
+
+.to-the-root-main.theme-page.relative{
+  padding-top: 30px;
+}
+
+.root-main-text>p:first-child{
+  padding-top: 0;
 }
