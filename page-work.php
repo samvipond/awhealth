@@ -10,7 +10,11 @@ get_header(); ?>
 <div class='to-the-root-main theme-page relative'>
   <h1 class='center'>Schedule a free consult. Feel heard.</h1>
   <div class='speak-box'>
-    Want to speak to someone?
+    <h2>Want to speak to someone?</h2>
+    <h3>Give me a call or click here!</h3>
+    <span class='custom-button'><a href='<?php echo esc_url(get_home_url()); ?>/contact'>Get In Touch &rsaquo;</a></span>
+    <h3>1-855-262-3774</h3>
+    <h3>I'm happy to answer any questions.</h3>
   </div>
   <div class='root-main-text'>
     <p><em>The case review process is available in-person or by video conferencing.</em></p>
