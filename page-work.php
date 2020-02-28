@@ -94,6 +94,43 @@ get_header(); ?>
     <p><strong>Immune Dysregulation</strong></p>
   </div>
 </div>
+<!-- functional approach -->
+<div class='functional-approach-container'>
+<div class='functional-approach book-now' style='background-image: url(<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2019/05/amberfade.jpg);)'>
+</div>
+<div class='functional-text'>
+    <h1>A Functional Medical Approach Is...</h1>
+    <ul>
+      <li>
+        <strong>Investigative: </strong>Addresses the underlying or root cause of your health problems which leads to optimal healing and long lasting results.
+      </li>
+      <li>
+        <strong>Holistic: </strong>Understands the systems of the body are interconnected along with our environment.   Sees the importance of theses connections.
+      </li>
+      <li>
+        <strong>Safe: </strong>Treatments have mild or no side effects, and other “untreated” complaints often improve.
+      </li>
+      <li>
+        <strong>Patient-centered: </strong>Treats the patient, not the disease.  Treatments are highly individualized based on the patient’s needs.
+      </li>
+      <li>
+        <strong>Participatory: </strong>Patients are educated, empowered, and encouraged to take an active role in their healing process.
+      </li>
+      <li>
+        <strong>Integrative: </strong>Multiple treatment approaches are applied.  Diet and lifestyle are emphasized.
+      </li>
+      <li>
+        <strong>Restorative: </strong>Designed to zero in on underlying causes, optimize function.  Prevent and reverse disease.  Improve the quality of your life.
+      </li>
+      <li>
+        <strong>Preventative: </strong>Treatments always entail that you engage in lifestyle and dietary changes that will help prevent chronic illness.
+      </li>
+      <li>
+        <strong>Evidence-based: </strong>Based on the latest research from peer-reviewed medical journals, and uncorrupted by corporate and political interests.s
+      </li>
+    </ul>
+  </div>
+</div>
 <script>
 document.addEventListener('DOMContentLoaded', function(event) {
   document.addEventListener('click', function (event) {

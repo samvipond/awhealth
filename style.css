@@ -987,14 +987,22 @@ span.wpcf7-form-control-wrap>textarea{
 }
 
 .icon-container{
-  margin: 0 1em 1em;
-  width: 300px;
-  height: 300px;
+  margin: 0 0.3em 1em;
+  width: 270px;
+  height: 270px;
   text-align: center;
   padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media screen and (min-width: 1309px){
+  .icon-container{
+    width: 300px;
+    height: 300px;
+    margin: 0 0.5em 1em;
+  }
 }
 
 .icon-container>p{
@@ -1015,4 +1023,60 @@ span.wpcf7-form-control-wrap>textarea{
   background: white;
   display: inline-block;
   border-radius: 50%;
+}
+
+/* functional approach */
+
+.functional-approach-container{
+  position: relative;
+}
+
+.functional-approach{
+  padding: 50px;
+  height: 600px;
+  justify-content: flex-end;
+}
+
+.functional-text{
+  width: 600px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.functional-text>ul>li{
+  line-height: 25px;
+}
+
+@media screen and (max-width: 1009px) {
+  .functional-text{
+    position: relative;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    top: 0;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 1009px) {
+  .functional-approach.book-now{
+    background-position: left !important;
+  }
+  .icon-container{
+    height: 200px;
+    width: 200px;
+    margin: 2em 0.5em 1em;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .icon-container{
+    height: 150px;
+    width: 150px;
+  }
+  .icon-container>h2 {
+    font-size: 34px;
+  }
 }
