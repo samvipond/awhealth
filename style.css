@@ -1080,3 +1080,18 @@ span.wpcf7-form-control-wrap>textarea{
     font-size: 34px;
   }
 }
+
+/* slider */
+
+.slider-text{
+  text-align: center !important;
+}
+
+.slider-text>h2{
+  transform: scale(0.75);
+}
+
+.slider-text>h2,
+.slider-text>p{
+  margin-bottom: 50px !important;
+}

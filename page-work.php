@@ -131,6 +131,7 @@ get_header(); ?>
     </ul>
   </div>
 </div>
+<?php the_content(); ?>
 <script>
 document.addEventListener('DOMContentLoaded', function(event) {
   document.addEventListener('click', function (event) {
