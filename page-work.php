@@ -46,6 +46,52 @@ get_header(); ?>
         <li>Recommendations for further testing if necessary.</li>
       </ul>
     </div>
+    <div class='box-expand step-three'>
+      <div class='show-more-container'>
+        <span id='expand-step-three' class='show-more'>&times;</span>
+      </div>
+      <h1>Step Three: Support & Following Up</h1>
+      <p>Implementing your treatment plan takes having the right support.  When I look back at why some patients are successful and others struggle it comes down to support.  Getting your health back requires implementing your plan and surrounding yourself with the right support.</p>
+      <p>Once the Case Review is complete, please book in follow-up appointments as needed.  You can talk with Amber to decide what makes sense for you.  The frequency of will depend upon your condition and how you respond to treatment. </p>
+    </div>
+    <div class='box-expand fees'>
+      <div class='show-more-container'>
+        <span id='expand-fess' class='show-more'>&times;</span>
+      </div>
+      <h1>Case Review Fees</h1>
+      <p>The Case Review is the fastest and most efficient way to determine the underlying causes of your health problems and design an effective treatment plan. While a Case Review may cost more up front, it is designed to save you money and time over the long-term by doing a deep dive at the beginning. Many people spend a lot of time and money spinning their wheels but never solving their health issues. Health problems can interfere with having a fulfilling personal & work life.</p>
+      <p><strong>Here is a breakdown of the costs involved in the Case Review:</strong></p>
+      <p><strong>The Case Review: </strong>This includes your initial & case review consultation plus two follow-ups. You determine the pace. Typically it takes 3-6 months.  If needed this can be broken down into a monthly payment plan.</p>
+      <p><strong>Functional Lab Work: </strong>Functional labs for the case review are $150 – $500 each.</p>
+      <p><strong>Supplements: </strong>These may part of your treatment plan after the Case Review. The cost could be between $0 – $200.</p>
+      <p><strong>Total of Case Review Fees: </strong>The total for the entire Case Review process with is approximately $597 – $1500.</p>
+    </div>
+  </div>
+</div>
+<div class='icons'>
+  <div class='icon-container'>
+    <h2><i class='wp-svg-leaf leaf icon-circle'></i></h2>
+    <p><strong>Gastro Intestinal Issues</strong></p>
+  </div>
+  <div class='icon-container'>
+    <h2><i class='wp-svg-lab lab icon-circle'></i></h2>
+    <p><strong>Nutrient Imbalance</strong></p>
+  </div>
+  <div class='icon-container'>
+    <h2><i class='wp-svg-accessibility accessibility icon-circle'></i></h2>
+    <p><strong>HPA Axis Dysregulation</strong></p>
+  </div>
+  <div class='icon-container'>
+    <h2><i class='wp-svg-spinner-5 spinner-5 icon-circle'></i></h2>
+    <p><strong>Chronic Infections</strong></p>
+  </div>
+  <div class='icon-container'>
+    <h2><i class='wp-svg-equalizer equalizer icon-circle'></i></h2>
+    <p><strong>Hormone Imbalance</strong></p>
+  </div>
+  <div class='icon-container'>
+    <h2><i class='wp-svg-bars bars icon-circle'></i></h2>
+    <p><strong>Immune Dysregulation</strong></p>
   </div>
 </div>
 <script>

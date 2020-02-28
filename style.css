@@ -795,9 +795,13 @@ span.wpcf7-form-control-wrap>textarea{
 }
 
 @media screen and (max-width: 767px){
-.footer-menu li{
-  margin-bottom: 15px;
-}
+  .footer-menu li{
+    margin-bottom: 15px;
+  }
+
+  div#textpopup{
+    width: 100%;
+  }
 }
 
 #mc_embed_signup_2{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
@@ -922,6 +926,10 @@ span.wpcf7-form-control-wrap>textarea{
     margin: 0 auto 20px;
     box-sizing: border-box;
   }
+
+  .box-expand>h1{
+    font-size: 20px;
+  }
 }
 
 .to-the-root-main.theme-page.relative{
@@ -936,10 +944,11 @@ span.wpcf7-form-control-wrap>textarea{
   border: 1px solid #ccc;
   padding: 15px;
   box-sizing: border-box;
-  max-height: 55px;
+  max-height: 65px;
   overflow: hidden;
   position: relative;
   transition: max-height .5s ease-out;
+  margin-bottom: 25px;
 }
 
 .box-expand.expand{
@@ -954,9 +963,56 @@ span.wpcf7-form-control-wrap>textarea{
   width: 25px;
   position: absolute;
   right: 15px;
-  top: 15px;
+  top: 20px;
   text-align: center;
   transform: rotate(45deg);
-  font-size: 25px;
   color: #f8f8f8;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.box-expand p{
+  font-size: 1.2em;
+}
+
+/* icons */
+
+.icons{
+  background: #E1EED8;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.icon-container{
+  margin: 0 1em 1em;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icon-container>p{
+  text-align: center;
+}
+
+.icon-container>h2{
+  font-size: 46px;
+  display: inline-block;
+  text-align: center;
+}
+
+.icon-container>p>strong{
+  font-size: 18px;
+}
+
+.icon-circle {
+  background: white;
+  display: inline-block;
+  border-radius: 50%;
 }
