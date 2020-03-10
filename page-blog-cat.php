@@ -35,25 +35,8 @@ if( $term ): ?>
 
 ?>
 </div>
-<div class='blog-cat-sidebar'>
-  <div id="popupmaincontainer">
-    <div><img alt="Amber" class="popupimage" src="<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2017/03/Headshot-2017-300x300.jpg" /></div>
-    <div>
-      <h3><strong>Meet with Amber from anywhere.</strong></h3>
-    </div>
-    <div id="popuplink"><a href="<?php echo esc_url(get_home_url()); ?>/make-a-booking">Book your free 15 minute consult today!</a></div>
-    <div class='insights-titles-container'>
-      <h2 class="margin-top">Recent Insights</h2>
-      <?php $the_query = new WP_Query( 'posts_per_page=4' ); ?>
-      <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
-      <div class='recent-post-titles'>
-        <p><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></p>
-      </div>
-      <?php endwhile; wp_reset_postdata(); ?>
-    </div>
-</div>
-</div>
-</div>
+<?php get_template_part('content', 'consultToday'); ?>
+
 </div>
 <div class='contact-footer'>
   <div class='custom-button book-now-inner contact-inner'>

@@ -131,7 +131,21 @@ get_header(); ?>
     </ul>
   </div>
 </div>
+<div class='content-carousel-no-mobile'>
 <?php the_content(); ?>
+</div>
+<div class='book-now appointment' style='background-image: url(<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2016/04/photo-1441981974669-8f9bc0978b64.jpg);)'>
+<div><h2><strong>Get on the path to feeling better.</strong></h2>
+  <span class='custom-button'><a href='<?php echo esc_url(get_home_url()); ?>/make-a-booking'>Book Your Appointment &rsaquo;</a></span></div>
+</div>
+<!-- contact info -->
+<div class='contact-info'>
+  <p><strong>Call:</strong> 855-262-3774</p>
+  <p><strong>Address:</strong> 2203a – 115 Fulford-Ganges Rd Salt Spring Island, BC, V8K 2T9</<strong></p>
+  <div class='custom-button book-now-inner contact-inner'>
+    <a href='<?php echo esc_url(get_home_url()); ?>/contact'>CONTACT &rsaquo;</a>
+  </div>
+</div>
 <script>
 document.addEventListener('DOMContentLoaded', function(event) {
   document.addEventListener('click', function (event) {

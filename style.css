@@ -1,16 +1,15 @@
 /*
- Theme Name:     Medicenter Child Theme
+ Theme Name:     medicenter Child Theme
  Theme URI:      N/A
- Description:    Medicenter Child Theme
+ Description:    medicenter Child Theme
  Author:         Sam Vipond
  Author URI:     http://samvipond.com
- Template:       Medicenter
+ Template:       medicenter
  Version:        1.0.0
 */
 
 @import url("../medicenter/style.css");
 @import url("./custom.css");
-/* @import url("./temp.css"); */
 
 html, body {
   height: 100%;
@@ -400,6 +399,17 @@ li.comments-number{
   transition: 0.3s;
 }
 
+.custom-button.extra{
+  height: 60px;
+  margin: 20px;
+  text-align: center;
+}
+
+.custom-button.extra:hover{
+  padding-right: 0;
+  transform: translateY(2px);
+}
+
 .custom-button>a{
   color: #39A6F2;
   height: 100%;
@@ -591,8 +601,20 @@ a:hover img, .gallery-box:hover img{
 }
 
 .blog-cat-main{
-  width: 600px;
+  width: 800px;
   padding-top: 0px;
+}
+
+@media (max-width: 1316px) {
+  .blog-cat-main{
+    width: 700px;
+  }
+}
+
+@media (max-width: 1216px) {
+  .blog-cat-main{
+    width: 600px;
+  }
 }
 
 .blog-cat-sidebar {
@@ -612,7 +634,7 @@ a:hover img, .gallery-box:hover img{
 }
 
 .post-preview-block.category {
-  max-width: 600px;
+  max-width: 800px;
   width: 100%;
   margin-left: 0;
   height: 300px;
@@ -646,7 +668,7 @@ a:hover img, .gallery-box:hover img{
 
 .insights-titles-container{
   min-height: 350px;
-  padding-top: 70px;
+  padding-top: 115px;
 }
 
 @media screen and (max-width: 1115px) {
@@ -1079,6 +1101,10 @@ span.wpcf7-form-control-wrap>textarea{
   .icon-container>h2 {
     font-size: 34px;
   }
+
+  .content-carousel-no-mobile{
+    display: none;
+  }
 }
 
 /* slider */
@@ -1094,4 +1120,58 @@ span.wpcf7-form-control-wrap>textarea{
 .slider-text>h2,
 .slider-text>p{
   margin-bottom: 50px !important;
+}
+
+.appointment{
+  min-height: 250px;
+}
+
+.appointment>div{
+  text-align: center;
+}
+
+.appointment>div>h2{
+  margin-bottom: 20px;
+}
+
+.appointment>div>span.custom-button{
+  background: #aaa;
+}
+
+.hide{
+  display: none !important;
+}
+
+.single-post-container{
+  max-width: 800px;
+}
+
+.foobar{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.no-border{
+  border: none !important;
+}
+
+.single-thumb{
+  margin-bottom: 30px;
+}
+
+.page-header-left .page-title.single-title{
+  float: none;
+}
+
+.meta-single{
+  margin-bottom: 20px;
+}
+
+.sidebar-headshot.popupimage{
+  height: 80px;
+}
+
+h3.sidebar-headline{
+  padding-left: 20px;
 }

@@ -29,4 +29,6 @@ function mc_child_theme_enqueue_script() {
 
 add_action( 'wp_enqueue_scripts', 'mc_child_theme_enqueue_script' );
 
+add_theme_support( 'post-thumbnails' );
+
 ?>
