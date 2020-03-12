@@ -439,8 +439,14 @@ li.comments-number{
   margin: 20px 0;
 }
 
-.about-sidebar {
-  width: 300px;
+.about-sidebar{
+  width: 460px;
+}
+
+@media screen and (max-width: 1250px){
+  .about-sidebar {
+    width: 300px;
+  }
 }
 
 .about-sidebar>img{
@@ -689,6 +695,19 @@ a:hover img, .gallery-box:hover img{
   }
 }
 
+@media screen and (max-width: 500px) {
+  .post-preview-block.category>a>img {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .post-preview-block.category{
+    height: auto;
+  }
+
+}
+
 @media screen and (max-width: 1025px) {
   .blog-cat-main{
     width: 100%;
@@ -776,6 +795,20 @@ ul.products>li>h2.woocommerce-loop-product__title{
 span.wpcf7-form-control-wrap>input,
 span.wpcf7-form-control-wrap>textarea{
   max-width: 80vw !important;
+}
+
+div.wpcf7 input, div.wpcf7 textarea {
+  padding: 15px;
+  width: 100%;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+input.text, input.title, input[type=email], input[type=password], input[type=tel], input[type=text], select, textarea {
+  padding: 2px;
+  border: 1px solid #bbb;
+  color: #4e4e4e;
+  background-color: #fff;
 }
 
 /* popup */
@@ -993,6 +1026,13 @@ span.wpcf7-form-control-wrap>textarea{
   cursor: pointer;
 }
 
+@media screen and (max-width: 500px) {
+  .show-more-container{
+    right: 5px;
+    top: 5px;
+  }
+}
+
 .box-expand p{
   font-size: 1.2em;
 }
@@ -1146,6 +1186,18 @@ span.wpcf7-form-control-wrap>textarea{
   max-width: 800px;
 }
 
+@media screen and (max-width: 1350px) {
+  .single-post-container{
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .single-post-container{
+    max-width: 600px;
+  }
+}
+
 .foobar{
   display: flex;
   justify-content: space-between;
@@ -1174,4 +1226,40 @@ span.wpcf7-form-control-wrap>textarea{
 
 h3.sidebar-headline{
   padding-left: 20px;
+}
+
+#popuplink.custom-button.extra{
+  position: relative;
+  right: 21px;
+}
+
+.related-posts{
+  padding: 5px 0 0 0;
+}
+
+.contact-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.side-photo{
+  width: 350px;
+}
+
+.side-photo>img{
+  max-width: 100%;
+  margin-top: 65px;
+  margin-right: 15px;
+}
+
+@media only screen and (min-width: 600px){
+  .contact-form input[type=email], .contact-form input[type=tel], .contact-form input[type=text], .contact-form input[type=url] {
+      width: 100% !important;
+  }
+}
+
+
+.contact-form{
+  max-width: 600px;
 }

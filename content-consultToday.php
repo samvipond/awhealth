@@ -4,7 +4,7 @@
       <img alt="Amber" class="popupimage sidebar-headshot" src="<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2017/03/Headshot-2017-300x300.jpg" />
       <h3 class="sidebar-headline"><strong>Meet with Amber from anywhere.</strong></h3>
     </div>
-    <div id="popuplink"><a href="<?php echo esc_url(get_home_url()); ?>/make-a-booking">Book your free 15 minute consult today!</a></div>
+    <div class='custom-button extra' id="popuplink"><a href="<?php echo esc_url(get_home_url()); ?>/make-a-booking">Book your free 15 minute consult today! &rsaquo;</a></div>
       <div class='insights-titles-container'>
         <h2 class="margin-top">Recent Insights</h2>
         <?php $the_query = new WP_Query( 'posts_per_page=4' ); ?>

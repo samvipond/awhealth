@@ -38,6 +38,18 @@ setPostViews(get_the_ID());
 				<?php the_post_thumbnail(); ?>
 			</div>
 		<?php the_content(); ?>
+		<h1>Related Posts</h1>
+		<?php
+
+				$related = get_posts( array( 'category__in' => wp_get_post_categories($post->ID), 'numberposts' => 5, 'post__not_in' => array($post->ID) ) );
+				if( $related ) foreach( $related as $post ) {
+				setup_postdata($post); ?>
+        <p class="related-posts">
+        <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a>
+
+        </p>
+<?php }
+wp_reset_postdata(); ?>
 		</div>
 		<?php get_template_part('content', 'consultToday'); ?>
 </div>

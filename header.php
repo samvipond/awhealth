@@ -22,16 +22,6 @@
 		<?php
 		wp_head();
 		?>
-		<!-- <?php
-		// mc_get_theme_file("/custom_colors.php");
-		// if(!empty($theme_options['ga_tracking_code']))
-		// {
-		// 	if(strpos($theme_options['ga_tracking_code'],'<script') !== false)
-		// 		echo $theme_options['ga_tracking_code'];
-		// 	else
-		// 		echo "<script type='text/javascript'>" . $theme_options['ga_tracking_code'] // . "</script>";
-		// }
-		?> -->
 	</head>
 	<body <?php body_class(); ?>>
 		<div class="site-container<?php echo ($theme_options['layout']=="boxed" || (isset($_COOKIE['mc_layout']) && $_COOKIE['mc_layout']=="boxed") ? ' boxed' : ($theme_options['layout']=="fullwidth" || (isset($_COOKIE['mc_layout']) && $_COOKIE['mc_layout']=="fullwidth") ? ' fullwidth' : '')); ?>">
@@ -134,7 +124,8 @@
 									}
 								}
 							?>
-							<img src="<?php echo esc_url($logo_url); ?>" alt="logo" />
+							<!-- <img src="<?php echo esc_url($logo_url); ?>" alt="logo" /> -->
+							<img src="<?php echo esc_url(get_home_url()) ?>/wp-content/uploads/2018/11/amber-wood-health.png" alt="logo" />
 							<?php endif; ?>
 							<?php if($theme_options["logo_text"]!=""): ?>
 							<span class="logo"><?php echo $theme_options["logo_text"]; ?></span>
