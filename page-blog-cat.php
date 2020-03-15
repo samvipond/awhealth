@@ -10,9 +10,9 @@ get_header(); ?>
 <div class="theme-page relative">
 <div class='blog-cat'>
 <div class='blog-cat-main'>
-<?php the_content();
-
-$term = get_field('blog_category');
+<?php the_content(); ?>
+<div class='buffer'></div>
+<?php $term = get_field('blog_category');
 if( $term ): ?>
 <?php query_posts((array(
   'category_name'  => $term->slug,
