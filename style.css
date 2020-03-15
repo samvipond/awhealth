@@ -1242,6 +1242,24 @@ h3.sidebar-headline{
 
 .related-posts{
   padding: 5px 0 0 0;
+  display: inline-block;
+  margin: 10px;
+  height: 280px;
+  width: 220px;
+  position: relative;
+}
+
+.related-posts>a>img{
+  width: 220px;
+  height: 220px;
+  object-fit: none;
+}
+
+.related-the-title{
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  font-size: 16px;
 }
 
 .contact-container{

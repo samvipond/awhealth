@@ -45,7 +45,11 @@ setPostViews(get_the_ID());
 				if( $related ) foreach( $related as $post ) {
 				setup_postdata($post); ?>
         <p class="related-posts">
-        <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a>
+				<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_post_thumbnail(); ?><span class="related-the-title"><?php the_title(); ?></span></a>
+				<!-- test -->
+				<!-- <img src='<?php ?>' alt=''>  -->
+
+				<!-- to here -->
 
         </p>
 <?php }
