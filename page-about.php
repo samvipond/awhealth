@@ -127,8 +127,6 @@ get_header(); ?>
 </div>
 <!-- contact info -->
 <div class='contact-info'>
-  <p><strong>Call:</strong> 855-262-3774</p>
-  <p><strong>Address:</strong> 2203a – 115 Fulford-Ganges Rd Salt Spring Island, BC, V8K 2T9</<strong></p>
   <div class='custom-button book-now-inner contact-inner'>
     <a href='<?php echo esc_url(get_home_url()); ?>/contact'>CONTACT &rsaquo;</a>
   </div>

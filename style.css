@@ -745,7 +745,7 @@ ul.products, .products{
 }
 
 ul.products>li{
-  max-width: 150px;
+  max-width: 250px;
   margin: 20px !important;
   /* display: block; */
 }
@@ -926,6 +926,7 @@ input.text, input.title, input[type=email], input[type=password], input[type=tel
 .to-the-root{
   height: 300px;
   width: 100%;
+  text-align: center;
 }
 
 .root-main-text p {
@@ -1004,6 +1005,12 @@ input.text, input.title, input[type=email], input[type=password], input[type=tel
   position: relative;
   transition: max-height .5s ease-out;
   margin-bottom: 25px;
+}
+
+@media (max-width: 400px) {
+  .box-expand.step-three {
+    max-height: 85px;
+  }
 }
 
 .box-expand.expand{
