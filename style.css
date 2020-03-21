@@ -403,6 +403,21 @@ li.comments-number{
   height: 60px;
   margin: 20px;
   text-align: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.custom-button.extra.consult{
+  margin-left: 0;
+  background: #AE3F24;
+}
+
+.custom-button.extra.consult>a{
+  color: #fff;
+}
+
+.custom-button.extra.thin{
+  height: 30px;
 }
 
 .custom-button.extra:hover{
@@ -1292,4 +1307,82 @@ h3.sidebar-headline{
 .buffer{
   width: 100%;
   height: 125px;
+}
+
+/* landing page */
+
+.theme-page.landing{
+  padding-bottom: 0;
+}
+
+section.landing-section-multi{
+  margin-top: 50px;
+}
+
+.vc_row.wpb_row.vc_row-fluid.landing-header{
+  margin-bottom: 30px;
+}
+
+.vc_row.wpb_row.vc_row-fluid.landing-mb{
+  margin-bottom: 50px;
+}
+
+.landing-cta.wpb_row.vc_row{
+  margin-top: 30px;
+  width: 100%;
+}
+
+.landing-cta .vc_general.vc_cta3.vc_cta3-style-classic {
+  border: none;
+}
+
+.landing-images.wpb_row.vc_row{
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.landing-quote{
+  padding-bottom: 50px;
+}
+
+.caroufredsel_wrapper.caroufredsel-wrapper-testimonials{
+  position: inherit !important;
+  padding-left: 50px !important;
+}
+
+@media (max-width: 500px) {
+  .landing-progress{
+    padding: 0 20px;
+  }
+}
+
+.landing-aloe-cta{
+  background: rgba(0,0,0,0.3) !important;
+  border: none;
+}
+
+.landing-aloe-cta header h2 {
+  color: #fff;
+}
+
+small.vc_label{
+  font-size: 14px !important;
+}
+
+.vc_general.vc_cta3.vc_cta3-style-classic{
+  border: none;
+}
+
+blockquote.landing{
+  max-width: 640px;
+  padding: 90px 0 90px 30px;
+}
+
+@media (max-width: 767px){
+  .landing .wpb_column.vc_column_container.vc_col-sm-4 > .wpb_wrapper{
+    width: 100% !important;
+  }
 }
