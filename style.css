@@ -416,6 +416,16 @@ li.comments-number{
   color: #fff;
 }
 
+@media (max-width: 500px) {
+  .custom-button.extra{
+    margin-right: 20px;
+  }
+
+  .custom-button.extra#popuplink{
+    max-width: 95%;
+  }
+}
+
 .custom-button.extra.thin{
   height: 30px;
 }
@@ -1217,6 +1227,17 @@ input.text, input.title, input[type=email], input[type=password], input[type=tel
 @media screen and (max-width: 1250px) {
   .single-post-container{
     max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .single-post-container{
+    max-width: 100%;
+  }
+
+  .single-thumb>img{
+    max-width: 100%;
+    height: auto;
   }
 }
 
