@@ -31,4 +31,18 @@ add_action( 'wp_enqueue_scripts', 'mc_child_theme_enqueue_script' );
 
 add_theme_support( 'post-thumbnails' );
 
+if (function_exists('register_sidebar')) {
+
+	register_sidebar(array(
+		'name' => 'Widgetized Area',
+		'id'   => 'widgetized-area',
+		'description'   => 'Widget area for product search',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h4>',
+		'after_title'   => '</h4>'
+	));
+
+}
+
 ?>

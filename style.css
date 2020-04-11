@@ -1194,6 +1194,12 @@ input.text, input.title, input[type=email], input[type=password], input[type=tel
   margin-bottom: 50px !important;
 }
 
+.slider-text *,
+.slider-text h2,
+.slider-text p {
+  text-shadow: 2px 2px 2px #000;
+}
+
 .appointment{
   min-height: 250px;
 }
@@ -1234,11 +1240,11 @@ input.text, input.title, input[type=email], input[type=password], input[type=tel
   .single-post-container{
     max-width: 100%;
   }
+}
 
-  .single-thumb>img{
-    max-width: 100%;
-    height: auto;
-  }
+.single-thumb>img{
+  max-width: 100%;
+  height: auto;
 }
 
 .foobar{
@@ -1274,6 +1280,26 @@ h3.sidebar-headline{
 #popuplink.custom-button.extra{
   position: relative;
   right: 21px;
+}
+
+.reset-cta-box{
+  width: 100%;
+  background: #7FBEC4;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  min-height: 100px;
+  color: #fff;
+  margin: 50px 20px 20px;
+  right: 21px;
+  position: relative;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #39A6F2;
 }
 
 .related-posts{
@@ -1405,5 +1431,24 @@ blockquote.landing{
 @media (max-width: 767px){
   .landing .wpb_column.vc_column_container.vc_col-sm-4 > .wpb_wrapper{
     width: 100% !important;
+  }
+}
+
+.justify-center.wpb_column.vc_column_container.vc_col-sm-4{
+  justify-content: center;
+}
+
+/* woocommerce search bar */
+
+.header-with-search{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 400px){
+  .woocommerce .widget_price_filter form, .woocommerce .widget_product_search form {
+    margin-top: 0 !important;
   }
 }
