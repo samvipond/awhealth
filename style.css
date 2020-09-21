@@ -521,7 +521,7 @@ li.comments-number{
 }
 
 .book-now-inner{
-  background: green;
+  background: #7EBEC5;
   border: 1px solid #fff;
   align-self: center;
   transition: 0.3s;
@@ -1213,7 +1213,11 @@ input.text, input.title, input[type=email], input[type=password], input[type=tel
 }
 
 .appointment>div>span.custom-button{
-  background: #aaa;
+  background: #7EBEC5;
+}
+
+.appointment>div>span.custom-button>a {
+  color: #fff;
 }
 
 .hide{
