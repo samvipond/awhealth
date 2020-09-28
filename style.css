@@ -1195,9 +1195,13 @@ input.text, input.title, input[type=email], input[type=password], input[type=tel
 }
 
 .slider-text *,
-.slider-text h2,
-.slider-text p {
+.slider-text h2 {
   text-shadow: 2px 2px 2px #000;
+}
+
+.slider-text p {
+  text-shadow: none;
+  color: #000;
 }
 
 .appointment{

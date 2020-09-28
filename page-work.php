@@ -136,7 +136,7 @@ get_header(); ?>
 </div>
 <div class='book-now appointment' style='background-image: url(<?php echo esc_url(get_home_url()); ?>/wp-content/uploads/2016/04/photo-1441981974669-8f9bc0978b64.jpg);)'>
 <div><h2><strong>Get on the path to feeling better.</strong></h2>
-  <span class='custom-button'><a href='<?php echo esc_url(get_home_url()); ?>/make-a-booking'>Book Your Appointment &rsaquo;</a></span></div>
+  <span class='custom-button'><a href='<?php echo esc_url(get_home_url()); ?>/make-a-booking'>Book Now &rsaquo;</a></span></div>
 </div>
 <!-- contact info -->
 <div class='contact-info'>
