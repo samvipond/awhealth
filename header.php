@@ -8,6 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 		<meta name="description" content="<?php echo esc_html(get_bloginfo('description')); ?>" />
 		<meta name="format-detection" content="telephone=no" />
+		<meta name="p:domain_verify" content="11cca116ebb262d8df84382f71a5c4af"/>
 		<!--style-->
 		<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php echo esc_url(get_bloginfo("rss2_url")); ?>" />
 		<link rel="pingback" href="<?php echo esc_url(get_bloginfo("pingback_url")); ?>" />
