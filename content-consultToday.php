@@ -13,13 +13,13 @@
           <p><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></p>
         </div>
         <?php endwhile; wp_reset_postdata(); ?>
-        <!-- <span class='custom-button extra consult'><a href='<?php echo esc_url(get_home_url()); ?>/serotonin-deficiency-syndrome-self-test'>Serotonin Deficiency Syndrome Self-Test &rsaquo;</a></span>
+        <!-- <span class='custom-button extra consult'><a href='<?php echo esc_url(get_home_url()); ?>/serotonin-deficiency-syndrome-self-test'>Serotonin Deficiency Syndrome Self-Test &rsaquo;</a></span> -->
         <div class='reset-cta-box'>
           <span>RESET YOUR HEALTH IN 30 DAYS</span><br/>
           <span class='custom-button join-me'>
           <a href='<?php echo esc_url(get_home_url()); ?>/reset-your-health'>JOIN ME &rsaquo;</a>
           </span>
-        </div> -->
+        </div>
       </div>
 
     </div>
