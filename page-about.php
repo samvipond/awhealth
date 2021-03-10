@@ -64,6 +64,10 @@ get_header(); ?>
 <div class='about-page about-education'>
   <div class='education'>
     <h1>Ongoing Education</h1>
+    <p>A4M & Metabolic Medical Institute continuing education and training
+      <a href='http://www.a4m.com/a4m-and-mmi-advanced-education.html' target="_blank" rel='noopener noreferrer'>www.a4m.com/a4m-and-mmi-advanced-education.html</a>
+    </p>
+    <p>Embodied Anti-Racism for Professionals with Francesca Maximé at <a href='https://therapywisdom.com/embodied-anti-racism/' target="_blank" rel='noopener noreferrer'>the Academy of Therapy Wisdom</a></p>
     <p>
       Advanced Diagnostics And Personalized Treatment
       ADAPT Trained Clinician & Healthcare Professional
@@ -97,10 +101,7 @@ get_header(); ?>
       <a href='http://www.bodyresearch.org' target='_blank' rel='noopener noreferrer'></a>
     </p>
     <p>
-      Undergraduate studies at UVIC in Victoria, BC.
-    </p>
-    <p>
-      Undergraduate studies, York University in Toronto, ON.
+    Undergraduate studies at UVIC in Victoria, BC and York University in Toronto, ON.
     </p>
   </div>
   <div class='logos'>
